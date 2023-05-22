@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = [
+        "projectName" => "Laravel - First steps",
+        "schoolName" => "Boolean",
+        "classId" => "91",
+        "author" => "Mattia Volpe",
+        "imagePath" => "https://picsum.photos/1000/600"
+    ];
+    return view('home', $data);
 });
