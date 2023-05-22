@@ -23,11 +23,16 @@
         margin-bottom: 0;
       }
       
-      h1 {
+      h1, a, footer {
         color: #ef3b2d;
       }
 
-      img {
+      a {
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .about_image {
         filter: invert(1);
       }
     </style>
@@ -60,7 +65,7 @@
       <h2 class="text-light mb-2">Welcome to</h2>
       <h1 class="text-uppercase">About page</h1>
 
-      <img src="https://cdn.store-assets.com/s/725697/f/6545290.png" alt="About image" class="img-fluid">
+      <img src="https://cdn.store-assets.com/s/725697/f/6545290.png" alt="About image" class="about_image img-fluid">
     </div>
   </main>
   <!-- /#app_main -->

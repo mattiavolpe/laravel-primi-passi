@@ -18,11 +18,18 @@
       body {
         font-family: 'Nunito', sans-serif;
       }
+      
       h1, h2, h3, h4, h5, h6 {
         margin-bottom: 0;
       }
-      h1 {
+      
+      h1, a, footer {
         color: #ef3b2d;
+      }
+
+      a {
+        font-weight: 700;
+        text-decoration: none;
       }
     </style>
   </head>
