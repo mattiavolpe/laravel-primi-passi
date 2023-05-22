@@ -19,7 +19,24 @@ Route::get('/', function () {
         "schoolName" => "Boolean",
         "classId" => "91",
         "author" => "Mattia Volpe",
-        "imagePath" => "https://picsum.photos/1000/600"
+        "imagePath" => "https://picsum.photos/1000/600",
+        "pages" => [
+            "Home" => "home",
+            "About" => "about"
+        ]
     ];
     return view('home', $data);
-});
+})->name("home");
+
+Route::get('/about', function () {
+    $data = [
+        "schoolName" => "Boolean",
+        "classId" => "91",
+        "author" => "Mattia Volpe",
+        "pages" => [
+            "Home" => "home",
+            "About" => "about"
+        ]
+    ];
+    return view('about', $data);
+})->name("about");

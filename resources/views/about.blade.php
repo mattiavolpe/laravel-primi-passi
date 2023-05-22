@@ -18,11 +18,17 @@
       body {
         font-family: 'Nunito', sans-serif;
       }
+      
       h1, h2, h3, h4, h5, h6 {
         margin-bottom: 0;
       }
+      
       h1 {
         color: #ef3b2d;
+      }
+
+      img {
+        filter: invert(1);
       }
     </style>
   </head>
@@ -52,9 +58,9 @@
   <main id="app_main" class="text-center py-4">
     <div class="container">
       <h2 class="text-light mb-2">Welcome to</h2>
-      <h1 class="text-uppercase">{{$projectName}}</h1>
+      <h1 class="text-uppercase">About page</h1>
 
-      <img src="{{$imagePath}}" alt="Random image" class="img-fluid">
+      <img src="https://cdn.store-assets.com/s/725697/f/6545290.png" alt="About image" class="img-fluid">
     </div>
   </main>
   <!-- /#app_main -->
